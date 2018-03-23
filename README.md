@@ -1,26 +1,4 @@
 # RockPaperScissors
 #2 player Rock Paper Scissor for practice python
 
-def rps():
-  newgame = True
-  while newgame:
-    p1 = input("Player 1, please enter either rock, paper or scissors")
-    p2 = input("Player 2, please enter either rock, paper or scissors")
-    
-    if(p1.lowercase() == "rock" and p2.lowercase() == "scissors") or (p1.lowercase() == "scissors" and p2.lowercase() == "paper") or (p1.lowercase() == "paper" and p2.lowercase() == "rock"):
-      print "Player 1 wins!"
-      
-    if(p2.lowercase() == "rock" and p1.lowercase() == "scissors") or (p2.lowercase() == "scissors" and p1.lowercase() == "paper") or (p2.lowercase() == "paper" and p1.lowercase() == "rock"):
-      print "Player 2 wins!"
-    
-    if(p2.lowercase() == "rock" and p1.lowercase() == "rock") or (p2.lowercase() == "scissors" and p1.lowercase() == "scissors") or (p2.lowercase() == "paper" and p1.lowercase() == "paper"):
-      print "It's a tie!"
-      
-    else:
-      print "Oh boy! Someone must hate me because they didn't enter rock paper or scissors"
-    
-    
-    prompt = input("Do you want to play again? yes/no")
-    if prompt == "no":
-      newgame = False
-    
+The rules are simple! Pick rock paper or scissors!  After a game you can type yes or no to continue or end the session!  Whoever goes second can't look or they are cheating.  That's a rule now.  That's how this works.  This is my jungle buckaroo.  Don't you step up on my turf.
